@@ -20,6 +20,8 @@
     "@storybook/addon-interactions": "^6.5.12",
     "@storybook/addon-links": "^6.5.12",
     "@storybook/builder-vite": "^0.2.4",
+    "@storybook/channel-websocket": "^6.5.12",
+    "@storybook/client-api": "^6.5.12",
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^2.1.0",
@@ -27,6 +29,9 @@
     "vite": "^3.1.8"
   },
   "dependencies": {
+    "@joaovictor3g/eslint-config": "*",
+    "@joaovictor3g/react": "*",
+    "@joaovictor3g/tokens": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
