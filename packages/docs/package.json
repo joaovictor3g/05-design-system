@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.3",
+    "@mdx-js/react": "^1.6.22",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-interactions": "^6.5.12",
@@ -32,6 +33,7 @@
     "@joaovictor3g/eslint-config": "*",
     "@joaovictor3g/react": "*",
     "@joaovictor3g/tokens": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
