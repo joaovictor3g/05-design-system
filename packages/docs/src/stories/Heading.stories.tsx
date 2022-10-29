@@ -8,6 +8,15 @@ export default {
   component: Heading,
   args: {
     children: "Example heading",
+    size: "md",
+  },
+  argTypes: {
+    size: {
+      options: ["sm", "md", "lg", "2xl", "4xl", "5xl", "6xl"],
+      control: {
+        type: "inline-radio",
+      },
+    },
   },
 } as Meta<HeadingProps>;
 
@@ -24,8 +33,9 @@ export const CustomTag: StoryObjProps = {
   parameters: {
     docs: {
       description: {
-        story: "Por padrao o heading sempre sera um `h2`, mas isso pode ser alterado com a propriedade `as`",
-      }
-    }
-  }
+        story:
+          "Por padrao o heading sempre sera um `h2`, mas isso pode ser alterado com a propriedade `as`",
+      },
+    },
+  },
 };

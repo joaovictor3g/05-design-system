@@ -23,16 +23,16 @@ export const Heading = styled("h2", {
         fontSize: "$5xl",
       },
       "3xl": {
-        fontSize: "6xl",
+        fontSize: "$6xl",
       },
       "4xl": {
-        fontSize: "7xl",
+        fontSize: "$7xl",
       },
       "5xl": {
-        fontSize: "8xl",
+        fontSize: "$8xl",
       },
       "6xl": {
-        fontSize: "9xl",
+        fontSize: "$9xl",
       },
     },
   },

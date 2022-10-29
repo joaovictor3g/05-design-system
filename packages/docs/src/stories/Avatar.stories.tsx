@@ -10,6 +10,11 @@ export default {
     src: "https://github.com/joaovictor3g.png",
     alt: "Joao Victor",
   },
+  argTypes: {
+    src: {
+      type: "string",
+    },
+  },
 } as Meta<AvatarProps>;
 
 export const Primary: StoryObjProps = {};
